@@ -1,0 +1,86 @@
+#Footer{
+    background: #060c21;
+    color: goldenrod;
+}
+#Footer .content{
+    font-weight: bold;
+    overflow: hidden;
+    text-align: center;
+    padding: 200px 50px;
+    height: auto;
+    display: block;
+}
+
+#Footer .content h3{
+    font-size: 60px;
+}
+#Footer .content h2{
+    margin-top: 20px;
+}
+#Footer .content .desc{
+    font-size: 17px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#Footer .content .socila_icons ol{
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+#Footer .content .socila_icons ol li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+#Footer .content .socila_icons ol li a{
+    color:black;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    border-radius: 3px;
+    
+}
+#Footer .content .socila_icons .fa-facebook , .socila_icons .fa-instagram , .socila_icons .fa-youtube-play{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 40px;
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    text-align: center;
+    color:white;
+    box-shadow: 2px 3px 4px #4c3333;
+    transition: 1s;
+}
+
+#Footer .content .socila_icons .fa:hover{
+    background-color:white;
+}
+#Footer .content .socila_icons .fa-facebook{
+    background-color: #3b5999;
+}
+#Footer .content .socila_icons .fa-facebook:hover{
+    color: #3b5999;
+    transform: translate(0, -10px);
+}
+#Footer .content .socila_icons .fa-instagram{
+     background-color: #e4405f;
+}
+#Footer .content .socila_icons .fa-instagram:hover{
+    color: #e4405f;
+    transform: translate(0, -10px);
+}
+#Footer .content .socila_icons .fa-youtube-play{
+    background-color: #cd201f;
+}
+#Footer .content .socila_icons .fa-youtube-play:hover{
+    color: #cd201f;
+    transform: translate(0, -10px);
+}
+
+#Footer .content .copyright{
+    margin-top: 20px;
+    font-size: 15px;
+    opacity: 0.7;
+}

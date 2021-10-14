@@ -1,0 +1,27 @@
+#Gallery .content{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    
+}
+#Gallery .content a{
+    margin: 100px 0 0;
+    padding: 10px 20px;
+    font-size: 50px;
+    border: 1px solid #fff;
+    display: inline-block;
+    color: goldenrod;
+    transition: 0.5s;
+    transform: translateY(-40px);
+}
+#Gallery .content a:hover{
+    color: whitesmoke;
+    text-decoration: underline;
+   
+}
+@media (max-width: 767px){
+    #Gallery .content a{
+        font-size: 25px;
+    }
+}
